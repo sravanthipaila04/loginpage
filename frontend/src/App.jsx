@@ -13,8 +13,8 @@ function App() {
     e.preventDefault();
 
     const url = isLogin
-      ? "http://localhost:5000/api/login"
-      : "http://localhost:5000/api/register";
+      ? "https://loginpage-92nd.onrender.com/api/login"
+      : "https://loginpage-92nd.onrender.com/api/register";
 
     const body = isLogin
       ? { email, password }
